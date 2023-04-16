@@ -3,8 +3,8 @@ pragma solidity ^0.8.0;
 contract School {
     mapping(address => uint) public scoreDic;
 
-    address public owner;
-    address public teacher;
+    address owner;
+    address teacher;
 
     constructor() {
         owner = msg.sender;
